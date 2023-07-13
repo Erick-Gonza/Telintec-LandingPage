@@ -4,7 +4,7 @@ import { Hero, Stats } from "./components";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="w-full flex-grow">
       <section className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
