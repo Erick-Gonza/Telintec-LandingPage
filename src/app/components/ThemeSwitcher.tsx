@@ -18,7 +18,7 @@ const ThemeSwitcher = () => {
   }
 
   return (
-    <div className="fixed bottom-4 right-4 sm:bottom-[100px] sm:right-8 z-10">
+    <div className="fixed bottom-4 right-4 sm:bottom-[50px] sm:right-8 z-10">
       <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
         {theme === "dark" ? (
           <Image
