@@ -1,8 +1,9 @@
-import { Footer, Navbar } from "./components";
 import "./globals.css";
-import Providers from "./Providers";
 import styles from "./style";
+import Providers from "./Providers";
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import Header from "./components/Header/Header";
+import { Footer } from "./components";
 
 export const metadata = {
   title: "Telintec",
@@ -19,9 +20,7 @@ export default function RootLayout({
       <body className="relative bg-white dark:bg-slate-900 w-full overflow-x-hidden">
         <Providers>
           <ThemeSwitcher />
-          <header className={`${styles.paddingX} ${styles.flexCenter}`}>
-            <Navbar />
-          </header>
+          <Header />
           {children}
           <Footer />
         </Providers>
