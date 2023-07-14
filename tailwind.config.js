@@ -8,10 +8,22 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        primary: "#ff335f",
+        "primary-off": "#ff1447",
+        secondary: "#43a9a3",
+        bg: "#ffffff",
+        "bg-off": "#f7f7f9",
+        text: "#373a3c",
+        "text-off": "#818a91",
+        border: "#eceeef",
+        "primary-dark": "#ff5277",
+        "primary-dark-off": "#ff2957",
+        "secondary-dark": "#43a9a3",
+        "bg-dark": "#0e141b",
+        "bg-dark-off": "#252526",
+        "text-dark": "#ffffff",
+        "text-dark-off": "#818a91",
+        "border-dark": "#2d2d2d",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
