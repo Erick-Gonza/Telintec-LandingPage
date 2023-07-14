@@ -7,16 +7,22 @@ import { navLinks, socialMedia } from "@/app/constants";
 const Footer = () => {
   return (
     <footer className={`${styles.flexCenter} flex flex-col`}>
-      <section className="flex justify-between items-center">
-        <section className="flex flex-col justify-center items-center w-1/2">
-          <Link className="flex justify-center w-full" href="/">
-            <Image src={logo} alt="logo" className="w-[50%] h-[50%]" />
+      <section className="flex flex-col md:flex-row md:w-1/2 w-full items-center py-2 md:py-4 gap-4 md:gap-8">
+        <section className="flex flex-col justify-center items-center">
+          <Link className="flex justify-center items-center w-full" href="/">
+            <Image
+              src={logo}
+              alt="logo"
+              className="w-[75%] h-[75%] lg:w-[60%] md:h-[60%]"
+            />
           </Link>
 
           <section
-            className={`${styles.paddingX} ${styles.flexCenter} flex flex-col`}
+            className={`${styles.paddingX} py-2 ${styles.flexCenter} flex flex-col gap-4 md:gap-5`}
           >
-            <h2>Nuestras Redes Sociales</h2>
+            <h2 className="font-bold text-md md:text-xl">
+              Nuestras Redes Sociales
+            </h2>
             <div className="flex w-full">
               {socialMedia.map((item, index) => (
                 <Link key={index} href={item.link}>
@@ -31,37 +37,47 @@ const Footer = () => {
           </section>
         </section>
 
-        <section className="w-1/2 flex justify-between">
-          <section>
-            <h2 className="text-xl font-bold">Empresa</h2>
-            <p>Mision</p>
-            <p>Historia y valor personal</p>
-            <p>Unete al equipo</p>
+        <section className="w-full px-4 flex justify-between gap-4">
+          <section className="flex flex-col gap-2">
+            <h2 className="text-lg font-bold md:text-xl">Empresa</h2>
+            <p className="text-md md:text-lg">Mision</p>
+            <p className="text-md md:text-lg">Historia y valor personal</p>
+            <p className="text-md md:text-lg">Unete al equipo</p>
           </section>
 
-          <section className="flex flex-col">
-            <h2 className="text-xl font-bold">Mapa del sitio</h2>
+          <section className="flex flex-col gap-2">
+            <h2 className="text-lg font-bold md:text-xl">Navegacion</h2>
             {navLinks.map((link, index) => (
-              <Link href={`/${link.id}`} key={index}>
+              <Link
+                href={`/${link.id}`}
+                key={index}
+                className="text-md md:text-lg"
+              >
                 {link.title}
               </Link>
             ))}
           </section>
 
-          <section>
-            <h2 className="text-xl font-bold">Info de contacto</h2>
-            <p>info@telintec.com.mx</p>
-            <p>Full Address</p>
-            <p>+52 812 567 2045</p>
+          <section className="flex flex-col gap-2">
+            <h2 className="text-lg font-bold md:text-xl">Contacto</h2>
+            <p className="text-md md:text-lg">info@telintec.com.mx</p>
+            <p className="text-md md:text-lg">Full Address</p>
+            <p className="text-md md:text-lg">+52 812 567 2045</p>
           </section>
         </section>
       </section>
 
-      <section className="flex items-center justify-center gap-8 bg-black w-full h-[32px]">
-        <h2>@ Copyrigth 2023 Telintec</h2>
-        <div className="flex gap-4">
-          <h2>Terminos y condiciones</h2>
-          <h2>Politica de privacidad</h2>
+      <section className="flex items-center justify-center gap-4 md:gap-12 w-full px-4 py-3 border-t border-black dark:border-white">
+        <h2 className="text-sm font-semibold md:text-lg">
+          @ Copyrigth 2023 Telintec
+        </h2>
+        <div className="flex gap-4 md:gap-8">
+          <h2 className="text-sm font-semibold md:text-lg">
+            Terminos y condiciones
+          </h2>
+          <h2 className="text-sm font-semibold md:text-lg">
+            Politica de privacidad
+          </h2>
         </div>
       </section>
     </footer>
