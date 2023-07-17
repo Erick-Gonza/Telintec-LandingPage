@@ -23,6 +23,8 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
+import { AiFillMail, AiFillPhone } from "react-icons/ai";
+import { FaLocationDot } from "react-icons/fa6";
 
 export {
   airbnb,
@@ -52,4 +54,7 @@ export {
   AiOutlineClose,
   BsSunFill,
   BsMoonFill,
+  AiFillMail,
+  AiFillPhone,
+  FaLocationDot,
 };
