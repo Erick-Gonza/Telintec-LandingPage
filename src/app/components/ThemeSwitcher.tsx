@@ -20,9 +20,9 @@ const ThemeSwitcher = () => {
     <div className="fixed bottom-4 right-4 sm:bottom-[50px] sm:right-8 z-10">
       <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>
         {theme === "dark" ? (
-          <BsSunFill className="w-[32px] h-[32px] object-contain" />
+          <BsSunFill className="w-[40px] h-[40px] object-contain bg-transparent rounded-full p-[4px] text-black dark:text-white" />
         ) : (
-          <BsMoonFill className="w-[32px] h-[32px] object-contain" />
+          <BsMoonFill className="w-[40px] h-[40px] object-contain bg-transparent rounded-full p-[4px] text-black dark:text-white" />
         )}
       </button>
     </div>
