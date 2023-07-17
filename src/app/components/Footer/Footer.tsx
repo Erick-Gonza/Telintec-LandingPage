@@ -6,7 +6,7 @@ import { navLinks, socialMedia } from "@/app/constants";
 
 const Footer = () => {
   return (
-    <footer className={`${styles.flexCenter} flex flex-col`}>
+    <footer className={`${styles.flexCenter} flex flex-col bg-transparent`}>
       <section className="flex flex-col md:flex-row md:w-1/2 w-full items-center py-2 md:py-4 gap-4 md:gap-8">
         <section className="flex flex-col justify-center items-center">
           <Link className="flex justify-center items-center w-full" href="/">

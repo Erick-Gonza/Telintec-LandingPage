@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex flex-col h-screen relative bg-white dark:bg-slate-900 w-full overflow-x-hidden">
+      <body className="flex flex-col h-screen relative w-full overflow-x-hidden bg-bg dark:bg-bg-dark">
         <Providers>
           <ThemeSwitcher />
           <Header />

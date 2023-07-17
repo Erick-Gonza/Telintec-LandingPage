@@ -1,6 +1,6 @@
 "use client";
 
-import { logo, menu, close } from "@/app/assets";
+import { AiOutlineClose, AiOutlineMenu, logo } from "@/app/assets";
 import { navLinks } from "@/app/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,28 +18,33 @@ export default function NavbarMobile() {
       />
 
       <section
-        className={`bg-slate-950 ${
+        className={`bg-bg dark:bg-bg-dark ${
           toggle === true ? "fixed" : "hidden"
-        } -left-0 lg:left-0 top-0 w-[100%] h-full p-8 flex flex-col justify-center gap-16 overflow-y-scroll z-10 border-r border-black`}
+        } -left-0 lg:left-0 top-0 w-[100%] h-full p-8 flex flex-col justify-center gap-16 overflow-y-scroll z-10`}
       >
         {navLinks.map((link, index) => (
           <Link
             href={`/${link.id}`}
             key={index}
-            className="flex flex-row justify-center items-center gap-1 px-2 py-1 font-bold text-[18px] text-white"
+            className="flex flex-row justify-center items-center gap-1 px-2 py-1 font-bold text-[18px]"
             onClick={() => setToggle((prev) => !prev)}
           >
-            {link.title}
+            <p className="w-auto text-center hover:border-b-2 hover:border-primary  dark:hover:border-primary-dark transition-all text-text dark:text-text-dark">
+              {link.title}
+            </p>
           </Link>
         ))}
       </section>
-
-      <Image
-        src={toggle ? close : menu}
-        alt="menu"
-        className="w-[32px] h-[32px] object-contain cursor-pointer z-20"
+      <button
+        className="cursor-pointer z-20"
         onClick={() => setToggle((prev) => !prev)}
-      />
+      >
+        {!toggle ? (
+          <AiOutlineMenu className="w-[32px] h-[32px] object-contain" />
+        ) : (
+          <AiOutlineClose className="w-[32px] h-[32px] object-contain" />
+        )}
+      </button>
     </nav>
   );
 }
