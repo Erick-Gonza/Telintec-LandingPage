@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../../style";
+import styles from "@/app/style";
 import Link from "next/link";
 import { logo } from "@/app/assets";
 import { navLinks, socialMedia } from "@/app/constants";

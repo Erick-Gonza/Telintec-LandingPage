@@ -1,5 +1,5 @@
-import styles from "./style";
-import { Companies, Hero, Stats } from "./components";
+import styles from "@/app/style";
+import { Companies, Hero, Stats } from "@/app/components";
 
 export default function Home() {
   return (

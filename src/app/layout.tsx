@@ -1,7 +1,5 @@
-import "./globals.css";
-import styles from "./style";
-
-import { Header, Footer, Providers, ThemeSwitcher } from "./components";
+import "@/app/globals.css";
+import { Header, Footer, Providers, ThemeSwitcher } from "@/app/components";
 
 export const metadata = {
   title: "Telintec",

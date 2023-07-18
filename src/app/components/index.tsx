@@ -1,9 +1,9 @@
-import Providers from "../Providers";
-import ThemeSwitcher from "./Theme/ThemeSwitcher";
-import Header from "./Header/Header";
-import Hero from "./Hero/Hero";
-import Stats from "./Stats/Stats";
-import Footer from "./Footer/Footer";
-import Companies from "./Companies/Companies";
+import Providers from "@/app/Providers";
+import ThemeSwitcher from "@/app/components/Theme/ThemeSwitcher";
+import Header from "@/app/components/Header/Header";
+import Hero from "@/app/components/Hero/Hero";
+import Stats from "@/app/components/Stats/Stats";
+import Footer from "@/app/components/Footer/Footer";
+import Companies from "@/app/components/Companies/Companies";
 
 export { Footer, Hero, Stats, Header, Providers, ThemeSwitcher, Companies };

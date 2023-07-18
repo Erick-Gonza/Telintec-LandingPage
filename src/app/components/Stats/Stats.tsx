@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { stats } from "../../constants";
-import styles from "../../style";
-import { statsBg } from "../../assets";
+import { stats } from "@/app/constants";
+import { statsBg } from "@/app/assets";
+import styles from "@/app/style";
 
 interface Stat {
   id: string;

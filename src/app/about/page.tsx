@@ -1,4 +1,3 @@
-import { Footer, Navbar } from "../components";
 import styles from "../style";
 
 export default function page() {

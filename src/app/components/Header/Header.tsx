@@ -1,7 +1,6 @@
-import React from "react";
+import styles from "@/app/style";
 import Navbar from "./Navbar";
 import NavbarMobile from "./NavbarMobile";
-import styles from "@/app/style";
 
 export default function Header() {
   return (

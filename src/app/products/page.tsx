@@ -1,5 +1,4 @@
-import { Footer, Navbar } from "../components";
-import styles from "../style";
+import styles from "@/app/style";
 
 export default function page() {
   return (
