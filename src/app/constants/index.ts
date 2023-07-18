@@ -1,4 +1,21 @@
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import {
+  ance,
+  bisquets,
+  carrier,
+  cfe,
+  cisen,
+  facebook,
+  hospital,
+  instagram,
+  isste,
+  linkedin,
+  pemex,
+  sonora,
+  techint,
+  ternium,
+  twitter,
+  zaragoza,
+} from "@/app/assets";
 
 export const navLinks = [
   {
@@ -61,5 +78,68 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+];
+
+export const companies = [
+  {
+    id: "company-1",
+    icon: cfe,
+    link: "https://www.cfe.mx/",
+  },
+  {
+    id: "company-2",
+    icon: ance,
+    link: "https://www.ance.org.mx/",
+  },
+  {
+    id: "company-3",
+    icon: sonora,
+    link: "https://www.unison.mx/",
+  },
+  {
+    id: "company-4",
+    icon: bisquets,
+    link: "https://bisquetsobregon.com/",
+  },
+  {
+    id: "company-5",
+    icon: zaragoza,
+    link: "https://coahuila.gob.mx/",
+  },
+  {
+    id: "company-6",
+    icon: hospital,
+    link: "http://www.hraev.salud.gob.mx/",
+  },
+  {
+    id: "company-7",
+    icon: cisen,
+    link: "https://www.google.com.mx",
+  },
+  {
+    id: "company-8",
+    icon: techint,
+    link: "https://www.techint.com/es",
+  },
+  {
+    id: "company-9",
+    icon: isste,
+    link: "https://www.gob.mx/issste",
+  },
+  {
+    id: "company-10",
+    icon: ternium,
+    link: "https://mx.ternium.com/es",
+  },
+  {
+    id: "company-11",
+    icon: pemex,
+    link: "https://www.pemex.com/Paginas/default.aspx",
+  },
+  {
+    id: "company-12",
+    icon: carrier,
+    link: "https://www.carrier.com.mx/",
   },
 ];

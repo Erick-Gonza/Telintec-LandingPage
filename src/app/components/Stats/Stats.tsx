@@ -11,9 +11,15 @@ interface Stat {
 
 const Stats = () => (
   <section
-    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-4`}
+    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-6 xl:rounded-md xl:h-[400px] xl:shadow-xl`}
   >
-    <Image src={statsBg} alt="bg image" fill loading="lazy" />
+    <Image
+      src={statsBg}
+      alt="bg image"
+      fill
+      loading="lazy"
+      className="rounded-sm"
+    />
     {stats.map((stat: Stat) => (
       <div
         key={stat.id}
