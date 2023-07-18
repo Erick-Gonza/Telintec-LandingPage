@@ -1,9 +1,5 @@
 import logo from "./logo.png";
 import robot from "./robot.png";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
 import statsBg from "./stats-bg.png";
 import ance from "./ance-logo.png";
 import sonora from "./sonora-logo.jpg";
@@ -17,6 +13,11 @@ import cfe from "./cfe-logo.png";
 import ternium from "./ternium-logo.png";
 import pemex from "./pemex-logo.png";
 import carrier from "./carrier-logo.png";
+import bgOffice from "./bg-office.png";
+import linkedin from "./linkedin.png";
+import facebook from "./facebook.png";
+import twitter from "./twitter.png";
+import instagram from "./instagram.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
@@ -25,10 +26,10 @@ import { FaLocationDot } from "react-icons/fa6";
 export {
   logo,
   robot,
-  facebook,
   instagram,
-  linkedin,
   twitter,
+  linkedin,
+  facebook,
   statsBg,
   ance,
   sonora,
@@ -42,6 +43,7 @@ export {
   ternium,
   pemex,
   carrier,
+  bgOffice,
   AiOutlineMenu,
   AiOutlineClose,
   BsSunFill,

@@ -1,5 +1,5 @@
 import styles from "@/app/style";
-import { Companies, Hero, Stats } from "@/app/components";
+import { Companies, Hero, ServicesResume, Stats } from "@/app/components";
 
 export default function Home() {
   return (
@@ -12,6 +12,7 @@ export default function Home() {
 
       <Stats />
       <Companies />
+      <ServicesResume />
     </main>
   );
 }

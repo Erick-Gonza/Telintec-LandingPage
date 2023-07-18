@@ -1,19 +1,19 @@
 import {
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
   ance,
   bisquets,
   carrier,
   cfe,
   cisen,
-  facebook,
   hospital,
-  instagram,
   isste,
-  linkedin,
   pemex,
   sonora,
   techint,
   ternium,
-  twitter,
   zaragoza,
 } from "@/app/assets";
 
@@ -141,5 +141,38 @@ export const companies = [
     id: "company-12",
     icon: carrier,
     link: "https://www.carrier.com.mx/",
+  },
+];
+
+export const services = [
+  {
+    id: "service-1",
+    title: "Cableado Estructurado",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: "service-2",
+    title: "Diseno de Redes",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: "service-3",
+    title: "Seguridad Electronica",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: "service-4",
+    title: "Circuitos Cerrados",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: "service-5",
+    title: "Inteligencia Artificial",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: "service-6",
+    title: "Asistentes Virtuales",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];

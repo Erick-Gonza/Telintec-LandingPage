@@ -24,13 +24,13 @@ const Footer = () => {
               <h2 className="font-bold text-md md:text-xl text-text dark:text-text-dark">
                 Nuestras Redes Sociales
               </h2>
-              <div className="flex w-full ">
+              <div className="flex w-full gap-2 md:gap-4">
                 {socialMedia.map((item, index) => (
                   <Link key={index} href={item.link}>
                     <Image
                       src={item.icon}
                       alt="logo"
-                      className="w-[142px] h-[32px] lg:w-[200px] lg:h-[40px]"
+                      className="w-[50px] h-[50px] lg:w-[100px] lg:h-[50px] text-black dark:text-white filter dark:invert"
                     />
                   </Link>
                 ))}

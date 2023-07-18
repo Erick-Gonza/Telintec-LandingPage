@@ -11,7 +11,7 @@ interface Stat {
 
 const Stats = () => (
   <section
-    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-6 xl:rounded-md xl:h-[400px] xl:shadow-xl`}
+    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-8 xl:rounded-md xl:h-[400px] xl:shadow-xl`}
   >
     <Image
       src={statsBg}
@@ -28,7 +28,7 @@ const Stats = () => (
         <h3 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
           {stat.value}
         </h3>
-        <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">
+        <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3 text-white">
           {stat.title}
         </p>
       </div>

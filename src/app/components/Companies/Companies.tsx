@@ -6,10 +6,10 @@ import Link from "next/link";
 export default function Companies() {
   return (
     <section
-      className={`${styles.boxWidth} p-6 bg-black xl:shadow-xl rounded-sm mb-6`}
+      className={`${styles.boxWidth} p-6 bg-black xl:shadow-xl rounded-sm mb-8`}
     >
-      <h2 className="text-xl md:text-2xl font-bold text-center mb-4">
-        Companias que confian en nuestra experiencia
+      <h2 className="text-xl md:text-2xl font-bold text-center mb-4 text-white">
+        Empresas que confian en nosotros
       </h2>
       <section className={`bg-white rounded-lg`}>
         <div className="flex justify-center flex-wrap gap-4 py-4 px-5 md:gap-8 md:py-6 md:px-10">
