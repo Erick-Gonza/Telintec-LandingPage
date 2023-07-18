@@ -21,6 +21,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import statsBg from "./stats-bg.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { BsSunFill, BsMoonFill } from "react-icons/bs";
 import { AiFillMail, AiFillPhone } from "react-icons/ai";
@@ -50,6 +51,7 @@ export {
   people01,
   people02,
   people03,
+  statsBg,
   AiOutlineMenu,
   AiOutlineClose,
   BsSunFill,

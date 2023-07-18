@@ -1,5 +1,5 @@
-import styles from "../style";
-import { robot } from "../assets";
+import styles from "../../style";
+import { robot } from "../../assets";
 import Image from "next/image";
 
 const Hero = () => {
