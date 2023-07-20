@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../style";
-import { robot } from "../assets";
+import { robot, statsBg } from "../assets";
 import Link from "next/link";
 
 export default function page() {
@@ -95,25 +95,36 @@ export default function page() {
         </ul>
       </section>
 
-      <section
+      {/* <section
         className={`flex flex-col gap-4 ${styles.paddingY} ${styles.paddingX}`}
+      > */}
+      <section
+        className={`${styles.flexCenter} ${styles.paddingX} flex-col ss:flex-row flex-wrap relative h-80 mb-8 xl:rounded-md xl:h-[400px] xl:shadow-xl`}
       >
-        <h2 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-text dark:text-text-dark">
-          Ponte en contacto con nosotros
-        </h2>
-        <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-text-off dark:text-text-dark-off">
-          Nuestro equipo de profesionales estará a tu disposición para brindarte
-          la asesoría que garantizará el éxito de tu negocio
-        </p>
-        <div className="flex flex-col items-center">
+        <Image
+          src={statsBg}
+          alt="bg image"
+          fill
+          loading="lazy"
+          className="rounded-sm"
+        />
+        <div className="relative flex flex-col items-center space-y-6 md:space-y-4">
+          <h2 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-text-dark">
+            Ponte en contacto con nosotros
+          </h2>
+          <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-text-dark-off">
+            Nuestro equipo de profesionales estará a tu disposición para
+            brindarte la asesoría que garantizará el éxito de tu negocio
+          </p>
           <Link
             href={"/contact"}
-            className="w-full md:w-1/3 font-poppins font-semibold xs:text-lg text-base bg-bg-dark-off dark:bg-bg-off dark:text-text text-text-dark px-2 py-3 rounded-md cursor-pointer"
+            className="w-full md:w-1/3 font-poppins font-semibold xs:text-lg text-base bg-bg-off text-text px-2 py-3 rounded-md cursor-pointer"
           >
             <p className="text-center">Contactanos</p>
           </Link>
         </div>
       </section>
+      {/* </section> */}
     </main>
   );
 }
