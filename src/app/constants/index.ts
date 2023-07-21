@@ -15,6 +15,7 @@ import {
   techint,
   ternium,
   zaragoza,
+  robot,
 } from "@/app/assets";
 
 export const navLinks = [
@@ -149,30 +150,36 @@ export const services = [
     id: "service-1",
     title: "Cableado Estructurado",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
   {
     id: "service-2",
     title: "Diseno de Redes",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
   {
     id: "service-3",
     title: "Seguridad Electronica",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
   {
     id: "service-4",
     title: "Circuitos Cerrados",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
   {
     id: "service-5",
     title: "Inteligencia Artificial",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
   {
     id: "service-6",
     title: "Asistentes Virtuales",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: robot,
   },
 ];
