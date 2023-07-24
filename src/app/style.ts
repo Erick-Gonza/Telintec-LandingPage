@@ -1,30 +1,24 @@
 const styles = {
+  container: "w-full flex-grow xl:flex xl:flex-col items-center",
   boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading2:
-    "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading:
+    "font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[90px] leading-[75px] text-text dark:text-text-dark w-full",
+  subHeading:
+    "font-poppins font-semibold ss:text-[64px] text-[48px] ss:leading-[90px] leading-[75px] text-text dark:text-text-dark w-full",
+
   paragraph:
-    "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    "font-poppins font-normal ss:text-[20px] text-[18px] leading-[40pxpx] text-text-off dark:text-text-dark-off w-full",
 
   flexCenter: "flex justify-center items-center",
+  flexCol: "flex md:flex-row flex-col",
   flexStart: "flex justify-center items-start",
 
-  paddingX: "sm:px-16 px-6",
-  paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-12 py-4",
+  paddingX: "sm:px-12 px-6",
+  paddingY: "sm:py-12 py-6",
 
-  marginX: "sm:mx-16 mx-6",
-  marginY: "sm:my-16 my-6",
-};
-
-export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
-  sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
-
-  sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
-  sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
-
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  marginX: "sm:mx-12 mx-6",
+  marginY: "sm:my-12 my-6",
 };
 
 export default styles;

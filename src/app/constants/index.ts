@@ -21,22 +21,22 @@ import {
 export const navLinks = [
   {
     id: "/",
-    title: "Home",
+    title: "Inicio",
   },
   {
-    id: "about",
+    id: "/about",
     title: "Nosotros",
   },
   {
-    id: "services",
+    id: "/services",
     title: "Servicios",
   },
   {
-    id: "products",
+    id: "/products",
     title: "Productos",
   },
   {
-    id: "contact",
+    id: "/contact",
     title: "Contacto",
   },
 ];

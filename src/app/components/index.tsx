@@ -6,6 +6,7 @@ import Stats from "@/app/components/Stats/Stats";
 import Footer from "@/app/components/Footer/Footer";
 import Companies from "@/app/components/Companies/Companies";
 import ServicesResume from "@/app/components/ServiceResume/ServicesResume";
+import Wrapper from "@/app/components/Wrapper/Wrapper";
 
 export {
   Footer,
@@ -16,4 +17,5 @@ export {
   ThemeSwitcher,
   Companies,
   ServicesResume,
+  Wrapper,
 };

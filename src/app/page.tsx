@@ -1,18 +1,23 @@
 import styles from "@/app/style";
-import { Companies, Hero, ServicesResume, Stats } from "@/app/components";
+import {
+  Companies,
+  Hero,
+  ServicesResume,
+  Stats,
+  Wrapper,
+} from "@/app/components";
 
 export default function Home() {
   return (
-    <main className="w-full flex-grow xl:flex xl:flex-col items-center">
-      <section className={`${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+    <Wrapper>
+      <main className={`${styles.container}`}>
+        <section className={`${styles.boxWidth}`}>
           <Hero />
-        </div>
-      </section>
-
-      <Stats />
-      <Companies />
-      <ServicesResume />
-    </main>
+          <Stats />
+          <Companies />
+          <ServicesResume />
+        </section>
+      </main>
+    </Wrapper>
   );
 }
