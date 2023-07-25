@@ -1,4 +1,4 @@
-import { bgOffice } from "@/app/assets";
+import { bgOffice } from "../../../../public/assets";
 import { services } from "@/app/constants";
 import styles from "@/app/style";
 import Image from "next/image";

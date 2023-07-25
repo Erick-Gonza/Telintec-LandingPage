@@ -1,5 +1,5 @@
 import styles from "@/app/style";
-import { AiFillMail, FaLocationDot, AiFillPhone } from "@/app/assets";
+import { AiFillMail, FaLocationDot, AiFillPhone } from "../../../public/assets";
 import { Wrapper } from "@/app/components";
 
 export default function page() {

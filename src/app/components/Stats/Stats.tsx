@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { stats } from "@/app/constants";
-import { statsBg } from "@/app/assets";
+import { statsBg } from "../../../../public/assets";
 import styles from "@/app/style";
 
 interface Stat {

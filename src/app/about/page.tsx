@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../style";
-import { robot, statsBg } from "../assets";
+import { robot, statsBg } from "../../../public/assets";
 import Link from "next/link";
 import { Wrapper } from "@/app/components";
 

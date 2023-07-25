@@ -16,7 +16,7 @@ import {
   ternium,
   zaragoza,
   robot,
-} from "@/app/assets";
+} from "../../../public/assets";
 
 export const navLinks = [
   {

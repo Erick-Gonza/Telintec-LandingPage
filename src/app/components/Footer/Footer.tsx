@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/app/style";
 import Link from "next/link";
-import { logo } from "@/app/assets";
+import { logo } from "../../../../public/assets";
 import { navLinks, socialMedia } from "@/app/constants";
 
 const Footer = () => {

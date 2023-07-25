@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { logo } from "@/app/assets";
+import { logo } from "../../../../public/assets";
 import { navLinks } from "@/app/constants";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";

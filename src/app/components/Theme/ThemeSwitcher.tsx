@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { BsSunFill, BsMoonFill } from "@/app/assets";
+import { BsSunFill, BsMoonFill } from "../../../../public/assets";
 import { motion } from "framer-motion";
 
 const ThemeSwitcher = () => {

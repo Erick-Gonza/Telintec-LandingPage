@@ -1,6 +1,6 @@
 "use client";
 
-import { AiOutlineClose, AiOutlineMenu, logo } from "@/app/assets";
+import { AiOutlineClose, AiOutlineMenu, logo } from "../../../../public/assets";
 import { navLinks } from "@/app/constants";
 import Image from "next/image";
 import Link from "next/link";
