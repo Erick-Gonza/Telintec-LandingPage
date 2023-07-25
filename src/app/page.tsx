@@ -7,17 +7,30 @@ import {
   Wrapper,
 } from "@/app/components";
 
+import CustomWrapper from "./components/Wrapper/CustomWrapper";
+
 export default function Home() {
   return (
     <Wrapper>
-      <main className={`${styles.container}`}>
+      <section className={`${styles.container}`}>
         <section className={`${styles.boxWidth}`}>
-          <Hero />
-          <Stats />
-          <Companies />
-          <ServicesResume />
+          <CustomWrapper position={20} delay={0.25}>
+            <Hero />
+          </CustomWrapper>
+
+          <CustomWrapper position={-20} delay={0.25}>
+            <Stats />
+          </CustomWrapper>
+
+          <CustomWrapper position={20} delay={0.25}>
+            <Companies />
+          </CustomWrapper>
+
+          <CustomWrapper position={-20} delay={0.25}>
+            <ServicesResume />
+          </CustomWrapper>
         </section>
-      </main>
+      </section>
     </Wrapper>
   );
 }

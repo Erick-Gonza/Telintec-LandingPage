@@ -7,6 +7,7 @@ import Footer from "@/app/components/Footer/Footer";
 import Companies from "@/app/components/Companies/Companies";
 import ServicesResume from "@/app/components/ServiceResume/ServicesResume";
 import Wrapper from "@/app/components/Wrapper/Wrapper";
+import Carrousel from "@/app/components/Carrousel/Carrousel";
 
 export {
   Footer,
@@ -18,4 +19,5 @@ export {
   Companies,
   ServicesResume,
   Wrapper,
+  Carrousel,
 };

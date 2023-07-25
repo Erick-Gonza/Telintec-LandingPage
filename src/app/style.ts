@@ -3,12 +3,12 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading:
-    "font-poppins font-semibold ss:text-[72px] text-[52px] ss:leading-[90px] leading-[75px] text-text dark:text-text-dark w-full",
+    "font-poppins font-semibold ss:text-[72px] text-[64px] ss:leading-[90px] leading-[75px] text-text dark:text-text-dark w-full",
   subHeading:
     "font-poppins font-semibold ss:text-[64px] text-[48px] ss:leading-[90px] leading-[75px] text-text dark:text-text-dark w-full",
 
   paragraph:
-    "font-poppins font-normal ss:text-[20px] text-[18px] leading-[40pxpx] text-text-off dark:text-text-dark-off w-full",
+    "font-poppins font-normal ss:text-[24px] text-[20px] leading-[40pxpx] text-text-off dark:text-text-dark-off w-full",
 
   flexCenter: "flex justify-center items-center",
   flexCol: "flex md:flex-row flex-col",

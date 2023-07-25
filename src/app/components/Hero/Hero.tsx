@@ -1,6 +1,5 @@
 import styles from "@/app/style";
-import { robot } from "@/app/assets";
-import Image from "next/image";
+import { Carrousel } from "@/app/components";
 
 const Hero = () => {
   return (
@@ -17,12 +16,8 @@ const Hero = () => {
         </p>
       </section>
 
-      <section className={`flex-1 ${styles.flexCenter}`}>
-        <Image
-          src={robot}
-          alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] object-contain"
-        />
+      <section className={`max-w-[650px] h-[500px] w-full m-auto p-6 ss:p-0`}>
+        <Carrousel />
       </section>
     </section>
   );
