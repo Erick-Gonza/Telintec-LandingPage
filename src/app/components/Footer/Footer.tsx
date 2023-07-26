@@ -53,11 +53,7 @@ const Footer = () => {
                 Navegacion
               </h2>
               {navLinks.map((link, index) => (
-                <Link
-                  href={`/${link.id}`}
-                  key={index}
-                  className="text-md md:text-lg"
-                >
+                <Link href={link.id} key={index} className="text-md md:text-lg">
                   {link.title}
                 </Link>
               ))}
