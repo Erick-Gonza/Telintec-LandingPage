@@ -201,3 +201,49 @@ export const carrouselImages = [
     url: "https://images.unsplash.com/photo-1634909924531-4daae117dbc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1631&q=80",
   },
 ];
+
+export const heroText = {
+  title: "Servicios",
+  offTitle: ["Inteligencia Artificial", "Infraestructura"],
+  description:
+    "Nuestros servicios están diseñados para ofrecer soluciones integrales y avanzadas que potencien la innovación, la eficiencia y el éxito de nuestros clientes en un entorno empresarial cada vez más competitivo y digitalizado.",
+};
+
+export const aboutText = {
+  title: "Acerca de Telintec",
+  description:
+    "El objetivo principal de Telintec es ser el proveedor líder de servicios de Inteligencia Artificial e Infraestructura de Redes, ofreciendo soluciones innovadoras y de alta calidad que permitan a nuestros clientes alcanzar su máximo potencial tecnológico y lograr un éxito sostenible en sus operaciones.",
+  about: [
+    "Quienes Somos",
+    "Somos una compañía con más de 8 años de experiencia en el sector, un gran número de proyectos ejecutados con éxito demuestran que nuestro objetivo principal es ayudar a nuestros clientes a mejorar la calidad, seguridad y disponibilidad de su información, a través de la consultoría especializada, ingeniería e implementación de sistemas de comunicación y soluciones inteligentes de vídeo y control deacceso. Todo esto es posible gracias al apoyo de un gran equipo de trabajo cuya motivación es la colaboración y el servicio al cliente.",
+  ],
+  mision: [
+    "Mision",
+    "En Telintec, nuestra misión es ser el aliado estratégico de nuestros clientes en su camino hacia el futuro digital, ofreciendo soluciones de Inteligencia Artificial e Infraestructura de Redes que trasciendan las expectativas y enriquezcan su éxito empresarial y el bienestar de la sociedad en su conjunto. Nos comprometemos a ser el socio estratégico preferido de las organizaciones en su viaje hacia la transformación digital",
+  ],
+  vision: [
+    "Vision",
+    "En Telintec, nuestra visión es ser líderes indiscutibles en la convergencia de la Inteligencia Artificial y la Infraestructura de Redes. Aspiramos a transformar la manera en que las empresas abordan los desafíos tecnológicos, brindando soluciones innovadoras y de vanguardia que impulsen la productividad, la eficiencia y el éxito de nuestros clientes en todo el mundo.",
+  ],
+  pilares: {
+    title: "Nuestros Pilares Fundamentales",
+    values: [
+      "Excelencia en Soluciones Tecnológicas",
+      "Innovación Constante",
+      "Orientación al Cliente",
+      "Ética y Responsabilidad",
+      "Impacto Positivo en la Sociedad",
+      "Colaboración",
+      "Aprendizaje Continuo",
+      "Flexibilidad y Adaptabilidad",
+      "Pasión por la Tecnología",
+    ],
+  },
+};
+
+export const contactText = {
+  title: "Ponte en contacto con nosotros",
+  description:
+    "Nuestro equipo de profesionales estará a tu disposición para brindarte la asesoría que garantizará el éxito de tu negocio",
+  prhase: "¡Contáctanos!",
+};

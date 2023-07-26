@@ -24,7 +24,7 @@ export default function NavbarMobile() {
       >
         {navLinks.map((link, index) => (
           <Link
-            href={`/${link.id}`}
+            href={link.id}
             key={index}
             className="flex flex-row justify-center items-center gap-1 px-2 py-1 font-bold text-[18px]"
             onClick={() => setToggle((prev) => !prev)}
