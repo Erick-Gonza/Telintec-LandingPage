@@ -1,8 +1,11 @@
+"use client";
+
 import styles from "@/app/style";
 import Image from "next/image";
 import Link from "next/link";
 import { statsBg } from "../../../../public/assets";
 import { contactText } from "@/app/constants";
+import { motion } from "framer-motion";
 
 export default function ContactCard() {
   const { title, description, prhase } = contactText;
@@ -24,12 +27,17 @@ export default function ContactCard() {
         <p className="font-poppins font-normal xs:text-[20px] text-[15px] xs:leading-[26px] leading-[21px] text-text-dark-off">
           {description}
         </p>
-        <Link
-          href={"/contact"}
+        <motion.button
           className="w-full md:w-1/3 font-poppins font-semibold xs:text-lg text-base bg-bg-off text-text px-2 py-3 rounded-md cursor-pointer"
+          whileHover={{
+            transform: "translateY(-4px)",
+            transition: { duration: 0.5 },
+          }}
         >
-          <p className="text-center">{prhase}</p>
-        </Link>
+          <Link href={"/contact"} className="">
+            <p className="text-center">{prhase}</p>
+          </Link>
+        </motion.button>
       </div>
     </section>
   );

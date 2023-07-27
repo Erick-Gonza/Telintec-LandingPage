@@ -7,11 +7,9 @@ export default function page() {
     <Wrapper>
       <main className={`${styles.flexCenter} w-full flex-grow`}>
         <section className={`${styles.boxWidth} flex flex-col mt-2`}>
-          <h2 className="w-full text-center text-xl font-semibold md:text-2xl text-text dark:text-text-dark">
-            Contactanos
-          </h2>
+          <h2 className={`${styles.subHeading} text-center`}>Contactanos</h2>
 
-          <p className="w-full text-center text-lg font-normal md:text-xl text-text-off dark:text-text-dark-off">
+          <p className={`${styles.paragraph} ${styles.paddingX} text-center`}>
             Tienes alguna duda? Solo escribe el mensaje y pronto tendras una
             respuesta
           </p>

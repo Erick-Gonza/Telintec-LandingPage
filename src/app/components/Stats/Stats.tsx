@@ -14,7 +14,7 @@ interface Stat {
 
 const Stats = () => (
   <motion.section
-    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-8 xl:rounded-md xl:h-[400px] xl:shadow-xl`}
+    className={`${styles.flexCenter} flex-col ss:flex-row flex-wrap relative h-80 mb-8 xl:rounded-md xl:h-[400px] shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]`}
   >
     <Image
       src={statsBg}
@@ -27,9 +27,6 @@ const Stats = () => (
       <motion.div
         whileHover={{
           scale: 0.9,
-          backgroundColor: "#1d1d1d",
-          borderRadius: 10,
-          boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
           transform: "translateY(-10px)",
           transition: { duration: 0.5 },
         }}
